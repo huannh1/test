@@ -1,0 +1,36 @@
+#logoImage{
+    width: 25%;
+    height: auto;
+}
+html{
+    background-color: #A288E3;
+    font-family:courier,arial,helvetica;
+    
+}
+
+#loginBox{
+    background-color: #F4F4F9;
+    height: 800px;
+    width: 30%;
+    position:block;
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#loginText{
+    text-align: center;
+    padding-top: 10px;
+
+}
+
+.loginInput input{
+    width: 80%;
+    height: 100px;
+    margin-left: 10%;
+    margin-top:10px;
+    font-size: larger;
+}
+
+.loginInput #username{
+    margin-top: 80px;
+}
