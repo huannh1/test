@@ -1,36 +1,51 @@
-#logoImage{
-    width: 25%;
-    height: auto;
-}
+
 html{
     background-color: #A288E3;
     font-family:courier,arial,helvetica;
     
 }
+*{
+    box-sizing: border-box;
+}
 
-#loginBox{
-    background-color: #F4F4F9;
-    height: 800px;
-    width: 550px;
-    position:block;
-    margin-top: 2%;
+.loginBox{
+
+    background-color: #DCDCDD;
+    width: 80%;
+    max-width: 600px;
+    text-align: center;
     margin-left: auto;
     margin-right: auto;
-}
-#loginText{
-    text-align: center;
-    padding-top: 10px;
+    margin-top: 3%;
+    height:auto;
+    padding-bottom: 50px;
 
 }
-
-.loginInput input{
-    width: 450px;
-    height: 100px;
-    margin-left: 10%;
-    margin-top:10px;
+.loginBox input{
+    max-width: 450px;
     font-size: larger;
+    display: block;
+    height: auto;
+    width: 50%;
+    margin-top: 10px;
+    margin-left :auto;
+    margin-right: auto;
+}
+#inputUsername{
+    margin-top: 10%;
 }
 
-.loginInput #username{
-    margin-top: 80px;
+#loginButton{
+    width: 20%;
+    max-width: 450px;
+    margin-top:3%;
+    margin-right:10%;
+
+}
+#registerButton{
+    width: 20%;
+    max-width: 450px;
+    margin-top: 3%;
+    
+    
 }
